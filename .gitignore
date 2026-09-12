@@ -30,8 +30,8 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
-/coverage/
+**/build/
+**/coverage/
 
 # Symbolication related
 app.*.symbols
@@ -46,3 +46,4 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+/lab1/ios/
