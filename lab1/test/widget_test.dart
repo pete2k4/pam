@@ -1,14 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:pam/main.dart';
+import 'package:laborator_1/main.dart';
 
 void main() {
-  testWidgets('currency converter shows expected controls', (
-    WidgetTester tester,
-  ) async {
-    await tester.pumpWidget(const CurrencyConverterApp());
+  testWidgets('currency converter renders controls', (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
 
-    expect(find.text('Convertor Valutar'), findsOneWidget);
+    expect(find.text('Currency Converter'), findsOneWidget);
     expect(find.text('Suma'), findsOneWidget);
     expect(find.text('Moneda sursă'), findsOneWidget);
     expect(find.text('Moneda destinație'), findsOneWidget);
