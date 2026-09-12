@@ -1,6 +1,5 @@
 # pam
 
-A new Flutter project about conversing monetary currencies
 
 ## Getting Started
 
