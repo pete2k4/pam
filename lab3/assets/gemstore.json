@@ -1,0 +1,697 @@
+{
+  "homePage": {
+    "storeName": "GemStore",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "selected": true,
+        "icon": "female"
+      },
+      {
+        "id": "men",
+        "name": "Men",
+        "selected": false,
+        "icon": "male"
+      },
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "selected": false,
+        "icon": "glasses"
+      },
+      {
+        "id": "beauty",
+        "name": "Beauty",
+        "selected": false,
+        "icon": "beauty"
+      }
+    ],
+    "heroBanner": {
+      "id": "autumn-collection-2021",
+      "title": "Autumn Collection 2021",
+      "action": "View collection",
+      "image": {
+        "asset": "assets/home_reference.png",
+        "crop": [
+          32,
+          215,
+          184,
+          145
+        ]
+      },
+      "categoryId": "women"
+    },
+    "featureProducts": [
+      "p001",
+      "p002",
+      "p003"
+    ],
+    "newCollection": {
+      "label": "NEW COLLECTION",
+      "title": "HANG OUT & PARTY",
+      "image": {
+        "asset": "assets/home_reference.png",
+        "crop": [
+          226,
+          713,
+          133,
+          155
+        ]
+      },
+      "categoryId": "women"
+    },
+    "recommended": [
+      "p004",
+      "p005"
+    ],
+    "topCollections": [
+      {
+        "id": "c001",
+        "label": "Sale up to 40%",
+        "title": "FOR SLIM & BEAUTY",
+        "image": {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            228,
+            1118,
+            110,
+            142
+          ]
+        },
+        "categoryId": "women"
+      },
+      {
+        "id": "c002",
+        "label": "Summer Collection 2021",
+        "title": "Most sexy & fabulous design",
+        "image": {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            235,
+            1280,
+            100,
+            198
+          ]
+        },
+        "categoryId": "women"
+      }
+    ],
+    "categoryPromos": [
+      {
+        "id": "cp001",
+        "category": "T-Shirts",
+        "title": "The Office Life",
+        "image": {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            32,
+            1508,
+            77,
+            194
+          ]
+        },
+        "categoryId": "women"
+      },
+      {
+        "id": "cp002",
+        "category": "Dresses",
+        "title": "Elegant Design",
+        "image": {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            267,
+            1508,
+            76,
+            194
+          ]
+        },
+        "categoryId": "women"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "p001",
+      "name": "Turtleneck Sweater",
+      "price": 39.99,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "featured",
+      "image": {
+        "asset": "assets/home_reference.png",
+        "crop": [
+          35,
+          464,
+          126,
+          172
+        ]
+      },
+      "description": "A simple turtleneck sweater for everyday outfits.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "white",
+          "name": "White",
+          "value": "#FFFFFF"
+        }
+      ],
+      "selectedColor": "white",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            35,
+            464,
+            126,
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p002",
+      "name": "Long Sleeve Dress",
+      "price": 45.0,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "featured",
+      "image": {
+        "asset": "assets/home_reference.png",
+        "crop": [
+          181,
+          464,
+          126,
+          172
+        ]
+      },
+      "description": "A long sleeve dress for casual days and evenings.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "black",
+          "name": "Black",
+          "value": "#333333"
+        }
+      ],
+      "selectedColor": "black",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            181,
+            464,
+            126,
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p003",
+      "name": "Sportwear Set",
+      "price": 80.0,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "featured",
+      "image": {
+        "asset": "assets/product_reference.png",
+        "crop": [
+          75,
+          0,
+          205,
+          382
+        ]
+      },
+      "rating": 4.9,
+      "ratingCount": 83,
+      "reviewCount": 47,
+      "description": "Sportswear is no longer under culture, it is no longer indie or cobbled together as it once was. Sport is fashion today. The top is oversized in fit and style, many need to size down.",
+      "descriptionExpanded": false,
+      "availableColors": [
+        {
+          "id": "beige",
+          "name": "Beige",
+          "value": "#E9C5AC"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "value": "#000000"
+        },
+        {
+          "id": "coral",
+          "name": "Coral",
+          "value": "#EF6262"
+        }
+      ],
+      "selectedColor": "beige",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "L",
+      "sizeAvailability": {
+        "S": false,
+        "M": false,
+        "L": true
+      },
+      "ratingBreakdown": [
+        {
+          "stars": 5,
+          "percentage": 80
+        },
+        {
+          "stars": 4,
+          "percentage": 12
+        },
+        {
+          "stars": 3,
+          "percentage": 5
+        },
+        {
+          "stars": 2,
+          "percentage": 3
+        },
+        {
+          "stars": 1,
+          "percentage": 0
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r001",
+          "author": "Jennifer Rose",
+          "rating": 5.0,
+          "createdAtLabel": "5m ago",
+          "text": "I love it. Awesome customer service!! Helped me out with adding an additional item to my order. Thanks again!",
+          "avatar": {
+            "asset": "assets/product_reference.png",
+            "crop": [
+              32,
+              1171,
+              38,
+              38
+            ]
+          }
+        },
+        {
+          "id": "r002",
+          "author": "Kelly Rihanna",
+          "rating": 5.0,
+          "createdAtLabel": "9m ago",
+          "text": "I'm very happy with order, It was delivered on and good quality. Recommended!",
+          "avatar": {
+            "asset": "assets/product_reference.png",
+            "crop": [
+              32,
+              1296,
+              38,
+              38
+            ]
+          }
+        }
+      ],
+      "actions": {
+        "isFavorite": true,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "similarProductIds": [
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "galleryImages": [
+        {
+          "asset": "assets/product_reference.png",
+          "crop": [
+            75,
+            0,
+            205,
+            382
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p004",
+      "name": "White fashion hoodie",
+      "price": 29.0,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "recommended",
+      "image": {
+        "asset": "assets/home_reference.png",
+        "crop": [
+          32,
+          962,
+          66,
+          66
+        ]
+      },
+      "description": "A relaxed white hoodie for everyday wear.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "white",
+          "name": "White",
+          "value": "#FFFFFF"
+        }
+      ],
+      "selectedColor": "white",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            32,
+            962,
+            66,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p005",
+      "name": "Cotton T-shirt",
+      "price": 30.0,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "recommended",
+      "image": {
+        "asset": "assets/home_reference.png",
+        "crop": [
+          260,
+          962,
+          66,
+          66
+        ]
+      },
+      "description": "A cotton T-shirt with a comfortable everyday fit.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "black",
+          "name": "Black",
+          "value": "#333333"
+        }
+      ],
+      "selectedColor": "black",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/home_reference.png",
+          "crop": [
+            260,
+            962,
+            66,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p006",
+      "name": "Rise Crop Hoodie",
+      "price": 43.0,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "similar",
+      "image": {
+        "asset": "assets/product_reference.png",
+        "crop": [
+          31,
+          1478,
+          126,
+          172
+        ]
+      },
+      "description": "A cropped hoodie for relaxed and sporty outfits.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "grey",
+          "name": "Grey",
+          "value": "#767A74"
+        }
+      ],
+      "selectedColor": "grey",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/product_reference.png",
+          "crop": [
+            31,
+            1478,
+            126,
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p007",
+      "name": "Gym Crop Top",
+      "price": 39.99,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "similar",
+      "image": {
+        "asset": "assets/product_reference.png",
+        "crop": [
+          177,
+          1478,
+          126,
+          172
+        ]
+      },
+      "description": "A cropped top for casual and active wear.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "pink",
+          "name": "Pink",
+          "value": "#BB989C"
+        }
+      ],
+      "selectedColor": "pink",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/product_reference.png",
+          "crop": [
+            177,
+            1478,
+            126,
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p008",
+      "name": "Sport Sweatshirt",
+      "price": 47.99,
+      "currency": "USD",
+      "categoryId": "women",
+      "group": "similar",
+      "image": {
+        "asset": "assets/product_reference.png",
+        "crop": [
+          323,
+          1478,
+          52,
+          172
+        ]
+      },
+      "description": "A comfortable sweatshirt for everyday wear.",
+      "descriptionExpanded": false,
+      "rating": 0,
+      "ratingCount": 0,
+      "reviewCount": 0,
+      "ratingBreakdown": [],
+      "reviews": [],
+      "availableColors": [
+        {
+          "id": "blue",
+          "name": "Blue",
+          "value": "#687B96"
+        }
+      ],
+      "selectedColor": "blue",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "M",
+      "sizeAvailability": {
+        "S": true,
+        "M": true,
+        "L": true
+      },
+      "similarProductIds": [
+        "p003"
+      ],
+      "actions": {
+        "isFavorite": false,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      },
+      "galleryImages": [
+        {
+          "asset": "assets/product_reference.png",
+          "crop": [
+            323,
+            1478,
+            52,
+            172
+          ]
+        }
+      ]
+    }
+  ]
+}
